@@ -1,0 +1,102 @@
+module.exports = {
+    root: true,
+    parserOptions: {
+        ecmaVersion: 2020,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
+
+    env: {
+        browser: true,
+        node: true,
+        es6: true,
+    },
+
+    settings: {
+        react: {
+            version: 'detect',
+        },
+        'import/resolver': {
+            node: {
+                extensions: ['.ts', '.tsx'],
+            },
+        },
+    },
+
+    plugins: ['@typescript-eslint'],
+    extends: [
+        'next/core-web-vitals',
+        'plugin:@typescript-eslint/recommended',
+        'airbnb',
+        'prettier',
+        'plugin:jsx-a11y/recommended',
+        'plugin:prettier/recommended',
+        'plugin:sonarjs/recommended',
+        'plugin:security/recommended',
+    ],
+
+    rules: {
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-filename-extension': [
+            1,
+            {
+                extensions: ['.ts', '.tsx', '.js', '.jsx'],
+            },
+        ],
+        'react/jsx-props-no-spreading': 'off',
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+        'no-nested-ternary': 'off',
+        'import/prefer-default-export': 'off',
+        'react/prop-types': 'off',
+        '@next/next/no-img-element': 'off',
+        'jsx-a11y/anchor-is-valid': 'off',
+        'jsx-a11y/click-events-have-key-events': 'off',
+        'jsx-a11y/no-static-element-interactions': 'off',
+        'react/jsx-curly-brace-presence': 'off',
+        'sonarjs/no-duplicate-string': 'off',
+        'no-console': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
+        'no-restricted-properties': 'off',
+        'no-underscore-dangle': 'off',
+        '@typescript-eslint/no-this-alias': 'off',
+        'sonarjs/cognitive-complexity': 'off',
+        eqeqeq: 'off',
+        'sonarjs/no-collapsible-if': 'off',
+        'no-plusplus': 'off',
+        'no-restricted-syntax': 'off',
+        'guard-for-in': 'off',
+        'object-shorthand': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        'no-unused-vars': 'off',
+        'global-require': 'off',
+        '@typescript-eslint/no-empty-interface': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+        'import/no-cycle': 'off',
+        'react/jsx-boolean-value': 'off',
+        'react/require-default-props': 'off',
+        'react-hooks/exhaustive-deps': 'off',
+        'react/no-danger': 'off',
+        'react/function-component-definition': 'off',
+        'import/no-unresolved': 'off',
+        'react/no-unescaped-entities': 'off',
+        '@next/next/no-sync-scripts': 'off',
+        'react/jsx-no-constructed-context-values': 'off',
+        'no-return-await': 'off',
+        'no-await-in-loop': 'off',
+        'react/no-array-index-key': 'off',
+        'jsx-a11y/media-has-caption': 'off',
+        'no-param-reassign': 'off',
+    },
+};
