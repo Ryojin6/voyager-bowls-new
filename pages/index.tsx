@@ -26,6 +26,7 @@ const Home: NextPage = () => {
     const [tokenId, setTokenId] = useState<number | null>(null);
     const [totalSupply, setTotalSupply] = useState<number>(0);
     const [maxSupply, setMaxSupply] = useState<number>(0);
+    const [isMinting, setIsMinting] = useState<boolean>(false);
 
     const nftContract = new ethers.Contract(CONTRACT_ADDRESS, abi, signer);
 
@@ -107,6 +108,7 @@ const Home: NextPage = () => {
                 res.signature,
                 { value: String(PRICE) }
             );
+            setIsMinting(true);
             const tx = await tokenURI.wait();
 
             const event = tx.events[0];
@@ -114,9 +116,11 @@ const Home: NextPage = () => {
             setTokenId(value.toNumber());
             notify.success('Successfully minted');
             setIsLoading(false);
+            setIsMinting(false);
         } catch (e) {
             notify.error('Error minting');
             setIsLoading(false);
+            setIsMinting(false);
         }
     }
 
@@ -169,6 +173,7 @@ const Home: NextPage = () => {
                     <span>{totalSupply}</span>
                     <span>/</span>
                     <span>{maxSupply}</span>
+                    <span>{isMinting}</span>
                 </div>
             </div>
         </div>
