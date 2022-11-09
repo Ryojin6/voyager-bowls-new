@@ -159,9 +159,7 @@ const Home: NextPage = () => {
                             className="max-w-lg top-0 px-8 py-2 -mt-2 md:-ml-10 hover:shadow-xl absolute left-1/2 -translate-x-1/2 hover:scale-105 duration-300 ease-in-auto"
                         >
                             <img
-                                src={
-                                    isMinting ? '/isMinting.png' : '/hover.png'
-                                }
+                                src={isMinting ? '/minting.png' : '/hover.png'}
                                 alt=""
                                 className="w-full rounded-3xl"
                             />
