@@ -136,7 +136,7 @@ const Home: NextPage = () => {
                         <button
                             type={'button'}
                             onClick={() => connectWallet()}
-                            className="px-6 effect-underline effect-shine bg-white text-black py-3 font-bold rounded-2xl"
+                            className="px-6 border bg-white text-black py-3 font-bold rounded-2xl hover:bg-black hover:text-white transition-all duration-300 ease-in-out"
                         >
                             Connect Wallet
                         </button>
@@ -159,12 +159,18 @@ const Home: NextPage = () => {
                             className="max-w-lg top-0 px-8 py-2 -mt-2 md:-ml-10 hover:shadow-xl absolute left-1/2 -translate-x-1/2 hover:scale-105 duration-300 ease-in-auto"
                         >
                             <img
-                                src="/hover.png"
+                                src={isMinting ? '/minting.png' : '/hover.png'}
                                 alt=""
                                 className="w-full rounded-3xl"
                             />
                         </button>
                     )}
+                    {tokenId && (
+                        <div className="max-w-lg top-0 px-8 py-2 -mt-2 md:-ml-10 hover:shadow-xl absolute left-1/2 -translate-x-1/2 hover:scale-105 duration-300 ease-in-auto">
+                            <img src="/closed.png" alt="" />
+                        </div>
+                    )}
+
                     <img src="/bg.jpg" alt="" className="w-full rounded-3xl" />
                 </div>
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center absolute -bottom-14  text-white font-bold left-1/2 -translate-x-1/2 ">
