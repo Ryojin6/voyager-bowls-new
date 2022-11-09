@@ -126,386 +126,50 @@ const Home: NextPage = () => {
                 'w-full h-screen relative flex flex-col gap-5 justify-center bg-black items-center '
             }
         >
-            <div className="absolute bottom-0 w-full opacity-5">
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-                <Marquee
-                    className="text-white  bg-transparent overflow-hidden uppercase font-mono font-bold text-8xl"
-                    gradient={false}
-                >
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                    <span className="px-4">TBD</span>
-                </Marquee>
-            </div>
-            <div className=" w-full max-w-6xl p-4  z-10  bg-black absolute  top-6 flex space-x-4 justify-between items-center  text-white right p-4">
-                <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center ">
+            <div className=" max-w-6xl mx-auto rounded-2xl  shadow-white z-50 relative">
+                <div className=" w-full  z-10  bg-black   top-6 flex space-x-4 justify-end items-center  text-white right p-4">
+                    {!connectedAddress && (
+                        <button
+                            type={'button'}
+                            onClick={() => connectWallet()}
+                            className="px-6 effect-underline effect-shine bg-white text-black py-3 font-bold rounded-2xl"
+                        >
+                            Connect Wallet
+                        </button>
+                    )}
+
+                    {connectedAddress && (
+                        <div className="flex font-bold items-center flex-col ">
+                            <span className="pr-4 text-black font-bold">
+                                Wallet Connected:
+                            </span>
+                            <h2 className="">{connectedAddress}</h2>
+                        </div>
+                    )}
+                </div>
+                <div className="relative">
+                    {!tokenId && (
+                        <button
+                            type={'button'}
+                            onClick={() => mint()}
+                            className="max-w-lg top-0 px-8 py-2 -mt-2 md:-ml-10 hover:shadow-xl absolute left-1/2 -translate-x-1/2 hover:scale-105 duration-300 ease-in-auto"
+                        >
+                            <img
+                                src="/hover.png"
+                                alt=""
+                                className="w-full rounded-3xl"
+                            />
+                        </button>
+                    )}
+                    <img src="/bg.jpg" alt="" className="w-full rounded-3xl" />
+                </div>
+                <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center absolute -bottom-14  text-white font-bold left-1/2 -translate-x-1/2 ">
                     {tokenId && <h1>{tokenId}</h1>}
                     <span>{isLoading}</span>
                     <span>{totalSupply}</span>
                     <span>/</span>
                     <span>{maxSupply}</span>
                 </div>
-                {!connectedAddress && (
-                    <button
-                        type={'button'}
-                        onClick={() => connectWallet()}
-                        className="p-4 effect-underline effect-shine"
-                    >
-                        Connect Wallet
-                    </button>
-                )}
-
-                {connectedAddress && (
-                    <div className="flex font-bold items-center flex-col absolute top-0 right-0">
-                        <span className="pr-4 text-black font-bold">
-                            Wallet Connected:
-                        </span>
-                        <h2 className="">{connectedAddress}</h2>
-                    </div>
-                )}
-            </div>
-            <div className=" max-w-6xl mx-auto rounded-2xl  shadow-white z-50 relative">
-                {!tokenId && (
-                    <button
-                        type={'button'}
-                        onClick={() => mint()}
-                        className="max-w-lg top-0 px-8 py-2 -mt-2 md:-ml-10 hover:shadow-xl absolute left-1/2 -translate-x-1/2 hover:scale-105 duration-300 ease-in-auto"
-                    >
-                        <img
-                            src="/hover.png"
-                            alt=""
-                            className="w-full rounded-3xl"
-                        />
-                    </button>
-                )}
-                <img src="/bg.jpg" alt="" className="w-full rounded-3xl" />
             </div>
         </div>
     );

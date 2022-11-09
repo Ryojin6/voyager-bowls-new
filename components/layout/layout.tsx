@@ -12,8 +12,8 @@ export default function Layout({ children }: LayoutProps) {
     return (
         <>
             <Head>
-                <title>Starter Project</title>
-                <meta name="description" content="TBD | Voyager Bowls" />
+                <title>TBD</title>
+                <meta name="description" content="Voyager Bowls" />
                 <link rel="icon" href="/tbd.png" />
             </Head>
             <main>{children}</main>
