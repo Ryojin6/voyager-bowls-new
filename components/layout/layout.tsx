@@ -13,18 +13,8 @@ export default function Layout({ children }: LayoutProps) {
         <>
             <Head>
                 <title>Starter Project</title>
-                <meta name="description" content="Starter Project" />
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link
-                    rel="preconnect"
-                    href="https://fonts.gstatic.com"
-                    crossorigin
-                />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&display=swap"
-                    rel="stylesheet"
-                />
+                <meta name="description" content="TBD | Voyager Bowls" />
+                <link rel="icon" href="/tbd.png" />
             </Head>
             <main>{children}</main>
         </>
