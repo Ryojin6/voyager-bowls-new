@@ -174,7 +174,6 @@ const Home: NextPage = () => {
                     <img src="/bg.jpg" alt="" className="w-full rounded-3xl" />
                 </div>
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center absolute -bottom-14  text-white font-bold left-1/2 -translate-x-1/2 ">
-                    {tokenId && <h1>{tokenId}</h1>}
                     <span>{isLoading}</span>
                     <span>{totalSupply}</span>
                     <span>/</span>
